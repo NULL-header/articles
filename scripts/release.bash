@@ -1,9 +1,8 @@
 dir_script=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-pushd ${dir_script%/*}
+pushd ${dir_script%/*} > /dev/null
 
-dir_target="../md"
-cp "$dir_target/*.md" .
+cp ./md/*.md .
 
 shopt -s extglob
-echo $(ls !(README).md)
-popd
+rm -r !(!(README).md|.git|.|..)
+popd > /dev/null
