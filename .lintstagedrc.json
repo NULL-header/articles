@@ -1,0 +1,4 @@
+{
+  "*.md":"yarn lint:md",
+  "*.ts":"yarn lint:ts"
+}
