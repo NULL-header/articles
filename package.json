@@ -22,9 +22,10 @@
     "typescript": "^4.5.5"
   },
   "scripts": {
-    "lint:md": "markdownlint",
-    "lint:ts": "eslint && prettier",
-    "init": "husky install"
+    "lint:md": "markdownlint $@ && pretiter $@",
+    "lint:ts": "eslint $@ && prettier $@",
+    "prepare": "husky install",
+    "test":"jest"
   },
   "dependencies": {}
 }
