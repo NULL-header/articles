@@ -19,11 +19,17 @@
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.3",
     "ts-node": "^10.5.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "yarn-run-all": "^3.1.1"
   },
   "scripts": {
-    "lint:md": "markdownlint $@ && pretiter $@",
-    "lint:ts": "eslint $@ && prettier $@",
+    "prettier": "prettier",
+    "lint:md": "run-s 'lint:md:* -- {1}' --",
+    "lint:md:markdownlint": "markdownlint",
+    "lint:md:prettier": "prettier",
+    "lint:ts": "run-s 'lint:ts:* -- {1}' --",
+    "lint:ts:eslint": "eslint",
+    "lint:ts:prettier": "prettier",
     "prepare": "husky install",
     "test": "jest"
   },
