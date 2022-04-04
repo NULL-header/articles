@@ -23,8 +23,13 @@
     "yarn-run-all": "^3.1.1"
   },
   "scripts": {
-    "lint:md": "yarn-run-all -s markdownlint prettier",
-    "lint:ts": "eslint $@ && prettier $@",
+    "prettier": "prettier",
+    "lint:md": "run-s 'lint:md:* -- {1}' --",
+    "lint:md:markdownlint": "markdownlint",
+    "lint:md:prettier": "prettier",
+    "lint:ts": "run-s 'lint:ts:* -- {1}' --",
+    "lint:ts:eslint": "eslint",
+    "lint:ts:prettier": "prettier",
     "prepare": "husky install",
     "test": "jest"
   },
