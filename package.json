@@ -33,5 +33,8 @@
     "prepare": "husky install",
     "test": "jest"
   },
-  "dependencies": {}
+  "dependencies": {
+    "-": "^0.0.1",
+    "zenn-cli": "^0.1.108"
+  }
 }
