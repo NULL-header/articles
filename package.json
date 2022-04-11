@@ -25,7 +25,7 @@
   "scripts": {
     "prettier": "prettier",
     "lint:md": "run-s 'lint:md:* -- {1}' --",
-    "lint:md:markdownlint": "markdownlint",
+    "lint:md:markdownlint": "markdownlint -c .markdownlint.jsonc",
     "lint:md:prettier": "prettier",
     "lint:ts": "run-s 'lint:ts:* -- {1}' --",
     "lint:ts:eslint": "eslint",
