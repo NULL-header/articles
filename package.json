@@ -20,6 +20,7 @@
     "eslint-plugin-import": "^2.28.1",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
+    "markdownlint-cli2": "^0.9.2",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
@@ -28,7 +29,7 @@
   "scripts": {
     "prettier": "prettier",
     "lint:md": "run-s 'lint:md:* -- {1}' --",
-    "lint:md:markdownlint": "markdownlint -c .markdownlint.jsonc",
+    "lint:md:markdownlint": "markdownlint-cli2 --config .markdownlint.jsonc",
     "lint:md:prettier": "prettier",
     "lint:ts": "run-s 'lint:ts:* -- {1}' --",
     "lint:ts:eslint": "eslint",

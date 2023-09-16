@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:152d81f16a1848db14fb2bb71540fe8537bfa13e5962245e728b0da55d0541031b86435ae2fcc3aeecf5a19d7b44ed6a43d9b21d64bc67c7b7ca4c374080ab81#npm:2.28.1"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:14.0.1"],\
+            ["markdownlint-cli2", "npm:0.9.2"],\
             ["prettier", "npm:3.0.3"],\
             ["ts-node", "virtual:152d81f16a1848db14fb2bb71540fe8537bfa13e5962245e728b0da55d0541031b86435ae2fcc3aeecf5a19d7b44ed6a43d9b21d64bc67c7b7ca4c374080ab81#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
@@ -1236,6 +1237,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:152d81f16a1848db14fb2bb71540fe8537bfa13e5962245e728b0da55d0541031b86435ae2fcc3aeecf5a19d7b44ed6a43d9b21d64bc67c7b7ca4c374080ab81#npm:2.28.1"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:14.0.1"],\
+            ["markdownlint-cli2", "npm:0.9.2"],\
             ["prettier", "npm:3.0.3"],\
             ["ts-node", "virtual:152d81f16a1848db14fb2bb71540fe8537bfa13e5962245e728b0da55d0541031b86435ae2fcc3aeecf5a19d7b44ed6a43d9b21d64bc67c7b7ca4c374080ab81#npm:10.9.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
@@ -1792,6 +1794,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/emoji-regex-npm-9.2.2-e6fac8d058-8487182da7.zip/node_modules/emoji-regex/",\
           "packageDependencies": [\
             ["emoji-regex", "npm:9.2.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["entities", [\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/entities-npm-3.0.1-21eeb201ba-aaf7f12033.zip/node_modules/entities/",\
+          "packageDependencies": [\
+            ["entities", "npm:3.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2365,6 +2376,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["micromatch", "npm:4.0.5"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.3.1", {\
+          "packageLocation": "./.yarn/cache/fast-glob-npm-3.3.1-8045ff8f4d-b6f3add640.zip/node_modules/fast-glob/",\
+          "packageDependencies": [\
+            ["fast-glob", "npm:3.3.1"],\
+            ["@nodelib/fs.stat", "npm:2.0.5"],\
+            ["@nodelib/fs.walk", "npm:1.2.8"],\
+            ["glob-parent", "npm:5.1.2"],\
+            ["merge2", "npm:1.4.1"],\
+            ["micromatch", "npm:4.0.5"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["fast-json-stable-stringify", [\
@@ -2675,6 +2698,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ignore", "npm:5.2.0"],\
             ["merge2", "npm:1.4.1"],\
             ["slash", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:13.2.2", {\
+          "packageLocation": "./.yarn/cache/globby-npm-13.2.2-47efcd4a86-f3d84ced58.zip/node_modules/globby/",\
+          "packageDependencies": [\
+            ["globby", "npm:13.2.2"],\
+            ["dir-glob", "npm:3.0.1"],\
+            ["fast-glob", "npm:3.3.1"],\
+            ["ignore", "npm:5.2.4"],\
+            ["merge2", "npm:1.4.1"],\
+            ["slash", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3355,6 +3390,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["linkify-it", [\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/linkify-it-npm-4.0.1-9c7d5a3cd6-3e0a299212.zip/node_modules/linkify-it/",\
+          "packageDependencies": [\
+            ["linkify-it", "npm:4.0.1"],\
+            ["uc.micro", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lint-staged", [\
         ["npm:14.0.1", {\
           "packageLocation": "./.yarn/cache/lint-staged-npm-14.0.1-50e37043be-8c5d740cb3.zip/node_modules/lint-staged/",\
@@ -3596,6 +3641,86 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/map-stream-npm-0.1.0-e44450fc62-38abbe4eb8.zip/node_modules/map-stream/",\
           "packageDependencies": [\
             ["map-stream", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["markdown-it", [\
+        ["npm:13.0.1", {\
+          "packageLocation": "./.yarn/cache/markdown-it-npm-13.0.1-dcb1a8675c-faf5891d38.zip/node_modules/markdown-it/",\
+          "packageDependencies": [\
+            ["markdown-it", "npm:13.0.1"],\
+            ["argparse", "npm:2.0.1"],\
+            ["entities", "npm:3.0.1"],\
+            ["linkify-it", "npm:4.0.1"],\
+            ["mdurl", "npm:1.0.1"],\
+            ["uc.micro", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["markdownlint", [\
+        ["npm:0.30.0", {\
+          "packageLocation": "./.yarn/cache/markdownlint-npm-0.30.0-2e4d43100d-cc99517c61.zip/node_modules/markdownlint/",\
+          "packageDependencies": [\
+            ["markdownlint", "npm:0.30.0"],\
+            ["markdown-it", "npm:13.0.1"],\
+            ["markdownlint-micromark", "npm:0.1.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["markdownlint-cli2", [\
+        ["npm:0.9.2", {\
+          "packageLocation": "./.yarn/cache/markdownlint-cli2-npm-0.9.2-0aa914c169-6927f8befa.zip/node_modules/markdownlint-cli2/",\
+          "packageDependencies": [\
+            ["markdownlint-cli2", "npm:0.9.2"],\
+            ["globby", "npm:13.2.2"],\
+            ["markdownlint", "npm:0.30.0"],\
+            ["markdownlint-cli2-formatter-default", "virtual:0aa914c1697d4030d5437bc1ed46b311957dbf6b16c210a87e7aefbfdccd6ff870705887d95a7f900249de1be5baeb58eb5eb0b7d021c85b985b045531fcbda3#npm:0.0.4"],\
+            ["micromatch", "npm:4.0.5"],\
+            ["strip-json-comments", "npm:5.0.1"],\
+            ["yaml", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["markdownlint-cli2-formatter-default", [\
+        ["npm:0.0.4", {\
+          "packageLocation": "./.yarn/cache/markdownlint-cli2-formatter-default-npm-0.0.4-4d22ebb64c-533971d6b0.zip/node_modules/markdownlint-cli2-formatter-default/",\
+          "packageDependencies": [\
+            ["markdownlint-cli2-formatter-default", "npm:0.0.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:0aa914c1697d4030d5437bc1ed46b311957dbf6b16c210a87e7aefbfdccd6ff870705887d95a7f900249de1be5baeb58eb5eb0b7d021c85b985b045531fcbda3#npm:0.0.4", {\
+          "packageLocation": "./.yarn/__virtual__/markdownlint-cli2-formatter-default-virtual-41b1e69377/0/cache/markdownlint-cli2-formatter-default-npm-0.0.4-4d22ebb64c-533971d6b0.zip/node_modules/markdownlint-cli2-formatter-default/",\
+          "packageDependencies": [\
+            ["markdownlint-cli2-formatter-default", "virtual:0aa914c1697d4030d5437bc1ed46b311957dbf6b16c210a87e7aefbfdccd6ff870705887d95a7f900249de1be5baeb58eb5eb0b7d021c85b985b045531fcbda3#npm:0.0.4"],\
+            ["@types/markdownlint-cli2", null],\
+            ["markdownlint-cli2", "npm:0.9.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/markdownlint-cli2",\
+            "markdownlint-cli2"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["markdownlint-micromark", [\
+        ["npm:0.1.7", {\
+          "packageLocation": "./.yarn/cache/markdownlint-micromark-npm-0.1.7-33373d0abe-1f40938fcb.zip/node_modules/markdownlint-micromark/",\
+          "packageDependencies": [\
+            ["markdownlint-micromark", "npm:0.1.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mdurl", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "./.yarn/cache/mdurl-npm-1.0.1-054d974269-71731ecba9.zip/node_modules/mdurl/",\
+          "packageDependencies": [\
+            ["mdurl", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4523,6 +4648,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["slash", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/slash-npm-4.0.0-ce4bbc4a80-da8e4af737.zip/node_modules/slash/",\
+          "packageDependencies": [\
+            ["slash", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["slice-ansi", [\
@@ -4787,6 +4919,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/strip-json-comments-npm-3.1.1-dcb2324823-492f73e272.zip/node_modules/strip-json-comments/",\
           "packageDependencies": [\
             ["strip-json-comments", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.1", {\
+          "packageLocation": "./.yarn/cache/strip-json-comments-npm-5.0.1-4a8f1cb37e-b314af70c6.zip/node_modules/strip-json-comments/",\
+          "packageDependencies": [\
+            ["strip-json-comments", "npm:5.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5122,6 +5261,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/typescript-patch-2e8dbfb8ab-0f4da2f15e.zip/node_modules/typescript/",\
           "packageDependencies": [\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["uc.micro", [\
+        ["npm:1.0.6", {\
+          "packageLocation": "./.yarn/cache/uc.micro-npm-1.0.6-36f3dc2fc4-6898bb5563.zip/node_modules/uc.micro/",\
+          "packageDependencies": [\
+            ["uc.micro", "npm:1.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
