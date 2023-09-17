@@ -1,4 +1,9 @@
 {
-  "*.md":"yarn lint:md",
-  "*.ts":"yarn lint:ts"
+  "*.md":[
+    "yarn run markdownlint --config .markdownlint.jsonc"
+  ],
+  "*.ts":[
+    "yarn run eslint",
+    "yarn run prettier"
+  ]
 }

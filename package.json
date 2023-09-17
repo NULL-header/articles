@@ -23,17 +23,9 @@
     "markdownlint-cli": "^0.36.0",
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2",
-    "yarn-run-all": "^3.1.1"
+    "typescript": "^5.2.2"
   },
   "scripts": {
-    "prettier": "prettier",
-    "lint:md": "run-s 'lint:md:* -- {1}' --",
-    "lint:md:markdownlint": "markdownlint --config ./.markdownlint.jsonc",
-    "lint:md:prettier": "prettier",
-    "lint:ts": "run-s 'lint:ts:* -- {1}' --",
-    "lint:ts:eslint": "eslint",
-    "lint:ts:prettier": "prettier",
     "prepare": "husky install",
     "test": "jest"
   },
