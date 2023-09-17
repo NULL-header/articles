@@ -32,5 +32,14 @@
   "dependencies": {
     "-": "^0.0.1",
     "zenn-cli": "^0.1.146"
+  },
+  "lint-staged":{
+    "*.md":[
+      "markdownlint"
+    ],
+    "*.ts":[
+      "eslint",
+      "prettier"
+    ]
   }
 }
