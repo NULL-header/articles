@@ -3,8 +3,5 @@
   "single-h1": false,
   "line-length": false,
   "no-bare-urls": false,
-  "no-inline-html": false,
-  "ul-style": {
-    "style": "asterisk"
-  }
+  "no-inline-html": false
 }

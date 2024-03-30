@@ -95,7 +95,7 @@ WSL上のファイルを指定したい場合は、`\\wsl$`とネットワーク
 
 # 参考
 
-* https://hub.docker.com/_/nginx?uuid=202366E8-42F7-4114-9919-973684414D0A
-  * DockerHub上でのnginx
-* https://learn.microsoft.com/ja-jp/windows/wsl/filesystems
-  * WSL上のファイルの開き方が例として一行乗っている
+- https://hub.docker.com/_/nginx?uuid=202366E8-42F7-4114-9919-973684414D0A
+  - DockerHub上でのnginx
+- https://learn.microsoft.com/ja-jp/windows/wsl/filesystems
+  - WSL上のファイルの開き方が例として一行乗っている
